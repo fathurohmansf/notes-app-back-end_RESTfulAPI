@@ -10,18 +10,18 @@ const routes = [
   {
     method: 'POST',
     path: '/notes',
-    handler: addNoteHandler
+    handler: addNoteHandler,
   },
   {
     method: 'GET',
     path: '/notes',
-    handler: getAllNotesHandler
+    handler: getAllNotesHandler,getNoteByHandler,
   },
-  {
-    method: 'GET',
-    path: '/notes{id}',
-    handler: getNoteByHandler,
-  },
+  // {
+  //   method: 'GET',
+  //   path: '/notes{id}',
+  //   handler: getNoteByHandler,
+  // },
   {
     method: 'PUT',
     path: '/notes/{id}',

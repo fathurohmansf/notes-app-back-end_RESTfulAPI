@@ -1,11 +1,4 @@
-const notes = [{
-  id: '',
-  title: '',
-  createdAt: '',
-  updatedAt: '',
-  tags: '',
-  body: '',
-},];
+const notes = [];
 
 module.exports = notes;
 
@@ -17,4 +10,15 @@ module.exports = notes;
 //  updatedAt: string,
 //  tags: array of string,
 //  body: string,
+// },
+
+
+
+// {
+//   id: '',
+//   title: '',
+//   createdAt: '',
+//   updatedAt: '',
+//   tags: '',
+//   body: '',
 // },

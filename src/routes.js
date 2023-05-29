@@ -15,13 +15,13 @@ const routes = [
   {
     method: 'GET',
     path: '/notes',
-    handler: getAllNotesHandler//,getNoteByHandler,editNoteByHandler,
+    handler: getAllNotesHandler  //,getNoteByHandler,editNoteByHandler,   versi lama
   },
-  // {
-  //   method: 'GET',
-  //   path: '/notes',
-  //   handler: getNoteByHandler,
-  // },
+  {
+    method: 'GET',
+    path: '/notes{id}',
+    handler: getNoteByHandler,
+  },
   {
     method: 'PUT',
     path: '/notes/{id}',

@@ -4,13 +4,13 @@ module.exports = notes;
 
 
 // {
-//  id: string,
-//  title: string,
-//  createdAt: string,
-//  updatedAt: string,
-//  tags: array of string,
-//  body: string,
-// },
+// 'id': string;
+// 'title': string;
+// 'createdAt': string;
+// 'updatedAt': string;
+// 'tags': array;
+// 'body': string;
+// }
 
 
 

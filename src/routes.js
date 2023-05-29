@@ -1,6 +1,6 @@
 const {
   addNoteHandler,
-  getAllNotesHandler,
+  //getAllNotesHandler,
   getNoteByHandler,
   editNoteByHandler,
   deleteNoteByIdHandler,
@@ -15,11 +15,11 @@ const routes = [
   {
     method: 'GET',
     path: '/notes',
-    handler: getAllNotesHandler,getNoteByHandler,
+    handler: getNoteByHandler,//getAllNotesHandler,//editNoteByHandler
   },
   // {
   //   method: 'GET',
-  //   path: '/notes{id}',
+  //   path: '/notes',
   //   handler: getNoteByHandler,
   // },
   {
@@ -32,5 +32,5 @@ const routes = [
     path: '/notes/{id}',
     handler: deleteNoteByIdHandler,
   },
-]
-module.exports = routes
+];
+module.exports = routes;

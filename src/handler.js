@@ -50,10 +50,10 @@ const addNoteHandler = (request, h) => {
     },
   });
 
-  const getNoteByHandler = (request, h) => {
+  const getNoteByIdHandler = (request, h) => {
     const{id} = request.params;
 
-    const note = note.filter((n) => n.id == id)[0];
+    const note = notes.filter((n) => n.id == id)[0];
 
     if (note !== undefined) {
       return {
@@ -73,13 +73,14 @@ const addNoteHandler = (request, h) => {
 
   };
 
-  const editNoteByHandler = (request, h) => {
-    const {id} = request.params;
+  const editNoteByIdHandler = (request, h) => {
+    const { id } = request.params;
 
-    const {title,tags,body} = request.payload;
+    const { title, tags, body } = request.payload;
     const updatedAt = new Date().toISOString();
 
     const index = notes.findIndex((note) => note.id === id);
+
     if (index !== -1) {
       notes[index] = {
         ...notes[index],
@@ -130,7 +131,7 @@ const addNoteHandler = (request, h) => {
 module.exports = {
   addNoteHandler,
   getAllNotesHandler,
-  getNoteByHandler,
-  editNoteByHandler,
-  deleteNoteByIdHandler
+  getNoteByIdHandler,
+  editNoteByIdHandler,
+  deleteNoteByIdHandler,
 };

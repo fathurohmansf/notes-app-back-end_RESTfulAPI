@@ -12,13 +12,3 @@ module.exports = notes;
 // 'body': string;
 // }
 
-
-
-// {
-//   id: '',
-//   title: '',
-//   createdAt: '',
-//   updatedAt: '',
-//   tags: '',
-//   body: '',
-// },

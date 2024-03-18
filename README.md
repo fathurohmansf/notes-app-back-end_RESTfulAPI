@@ -22,14 +22,14 @@ ini baru lagi
 8. buka link dicoding tsb maka akan muncul seperti ini
 
 # Tampilan awal Apps Notes
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 # Add Note
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 # View All Notes
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 # View Note ById
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 # Edit Note ById
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 # View done Delete Note ById
-![alt text](image-6.png)
+![alt text](img/image-6.png)

@@ -22,6 +22,7 @@ const addNoteHandler = (request, h) => {
   notes.push(newNote);
 
   const isSuccess = notes.filter((note) => note.id === id).length > 0;
+
   // penerapan cors manual
   // const response = h.request({ error: false, message: 'catatan berhasil di tambahkan'});
 
@@ -95,6 +96,8 @@ const addNoteHandler = (request, h) => {
         message: 'Catatan berhasil diperbarui',
       });
       response.code(200);
+       // Redirect user back to getAllNotesHandler
+      response.header('Location', '/notes');
       return response;
     }
 

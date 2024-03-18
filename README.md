@@ -15,9 +15,9 @@ cara menjalankan nya adalah
 	3. & "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security
 ini baru lagi
 
-path location (pake cd dulu) = C:\Program Files (x86)\Google\Chrome\Application
+		path location (pake cd dulu) = C:\Program Files (x86)\Google\Chrome\Application
 
-LINK YG AKAN DI TEST = http://notesapp-v1.dicodingacademy.com
+		LINK YG AKAN DI TEST = http://notesapp-v1.dicodingacademy.com
 
 8. buka link dicoding tsb maka akan muncul seperti ini
 

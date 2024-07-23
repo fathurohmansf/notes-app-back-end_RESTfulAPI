@@ -12,7 +12,7 @@ cara menjalankan nya adalah
 7. # has been blocked by CORS policy: ( ini di blok sama browser chrome )
 	1. [path instalasi chrome di windows]\chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security  (bersifat sementara)
 	2. chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security (bersifat sementara tapi normal
-	3. & "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security
+	3. start chrome.exe / "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security
 ini baru lagi
 
 		path location (pake cd dulu) = C:\Program Files (x86)\Google\Chrome\Application
